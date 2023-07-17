@@ -11,7 +11,7 @@ import { Upcoming } from "./components/Upcoming";
 import { Support } from "./components/Support";
 import { SupportSummary } from "./components/SupportSummary";
 import { NoMatch } from "./components/NoMatch";
-import imageOne from "./assets/imageOne.gif";
+
 
 function App() {
   return (
@@ -23,10 +23,7 @@ function App() {
         </Switch>
       </Router> */}
       <Navbar />
-      <div className="video-wrapper">
-        <image src={imageOne} autoPlay loop muted />
-      </div>
-
+     
       <Routes>
         <Route path="/" element={<HomePage />} />
 
