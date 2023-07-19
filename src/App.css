@@ -2,6 +2,14 @@
   overflow: hidden;
 }
 
+:root {
+--color-one:  #d2a56d;
+--color-two:	#bd7e4a;
+--color-three:#83502e;
+--color-four: black;
+--color-five: #ffe8cd;
+}
+
 #root,
 body {
   margin: 0;
