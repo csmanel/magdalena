@@ -10,7 +10,7 @@ export default function Card({step}) {
     return(
         <div className="card-content">
             <div>
-                <img src={graphic} className="graphic"/>
+                <img src={graphic} className="graphic" alt={`${name}-about_page`}/>
             </div>
             <div className="name">{name}</div>
             <div className="bio-text">{bio}</div>
