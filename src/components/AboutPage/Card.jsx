@@ -1,13 +1,17 @@
 import React from "react";
 import { membersInfo } from "./Members"
 
-export default function Card(props) {
+
+
+export default function Card({step}) {
     //index into object, grab one info
-    const {name, graphic, bio} = membersInfo[props.step];
+    const {name,graphic, bio} = membersInfo[step];
 
     return(
-        <div className="card">
-            <div className="graphic">{graphic}</div>
+        <div className="card-content">
+            <div>
+                <img src={graphic} className="graphic"/>
+            </div>
             <div className="name">{name}</div>
             <div className="bio-text">{bio}</div>
         </div>

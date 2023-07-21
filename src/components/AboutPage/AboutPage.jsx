@@ -27,7 +27,7 @@ export const AboutPage = () => {
       </div>
         
       <div className="buttons">
-        {step < 3 && <button onClick={() => handleNext()}>next</button>}
+        {step < 5 && <button onClick={() => handleNext()}>next</button>}
       </div>
 
     </div>
