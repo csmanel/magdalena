@@ -16,12 +16,6 @@ import { NoMatch } from "./components/NoMatch";
 function App() {
   return (
     <div className="main">
-      {/* <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" />
-        </Switch>
-      </Router> */}
       <Navbar />
      
       <Routes>
