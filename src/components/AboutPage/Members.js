@@ -2,6 +2,8 @@ import cole from "../../assets/cole-headshot.png"
 import magdalena from "../../assets/magdalena-bio.jpg"
 import cameron from "../../assets/cameron-headshot.jpeg"
 import mira from "../../assets/mira-headshot.jpg"
+import sarah from "../../assets/sarah-headshot.JPG"
+import liv from "../../assets/liv-headshot.jpg"
 
 
 export const membersInfo = [
@@ -12,7 +14,7 @@ export const membersInfo = [
     },
     {
         name:'cole',
-        bio: 'this is a bio',
+        bio: 'Cole Manel is a lutenist who plays other instruments and likes to make noise ',
         graphic: cole   
     },
     {
@@ -27,13 +29,13 @@ export const membersInfo = [
     },
     {
         name:'liv',
-        bio: 'this is liv bio',
-        graphic: 'this is liv graphic',   
+        bio:'Early and folk music specialist Liv Castor’s artistry marries ancient and new traditions. As a skilled representative of harp playing from many genres and time periods, she brings a versatile and collaborative approach into every musical endeavor. Her career as a performer has taken her around the world where she has been engaged in projects as wide ranging as premiering new music, re-imagining pieces from centuries past, and improvising live on stage. Highlights include recurring appearances at Indianapolis Early Music Festival (United States), performances with the Peabody Consort at the Conciertos de la Villa de Santo Domingo (Dominican Republic), multiple concerts as part of the Festival International de Harpe (France), and premiering several creative projects of music and media at the World Harp Congress (Hong Kong). In addition to her work as an enthusiastic collaborator and performer, Liv’s passion lies in finding and preserving rarer songs and tunes from the Scottish and Irish traditions. She is currently a student at Sabhal Mòr Ostaig, University of the Highlands and Islands, where she is undertaking study in Scottish Gaelic with the goal of furthering her knowledge of Gaelic song and the cultural practices surrounding it.',
+        graphic: liv,   
     },
     {
         name:'sarah',
-        bio: 'this is sarah bio',
-        graphic: 'this is sarah graphic',   
+        bio: 'Persian musician Sarah Shodja specializes in the recorder and was one of the first women in Iran to play the recorder in concert halls. In 2017, Sarah was awarded a full scholarship to study with Gwyn Roberts at the Peabody Conservatory of Johns Hopkins University, where she earned a bachelor’s degree in Historical Performance. In addition to her solo performances, Sarah is a sought-after collaborator, having worked with the Baltimore Baroque Band, Peabody Renaissance Ensemble, Washington Bach consort, Tempesta Di Mare, and Peabody Recorder consort. She also established a recorder consort, Tehran Recorder Atelier, along with three of her women recorder-playing colleagues. Other past engagements include performances with Shargh Chamber Orchestra and Pars Recorder Orchestra in her home country. As a Peabody student, she performed at Early Music America’s Young Performer’s Festival at the Bloomington Early Music Festival and the Conciertos de la Villa de Santo Domingo Festival in the Dominican Republic. In the summer of 2022, she became a faculty member of Mountain Collegium. She, along with her colleague Teresa Deskur, founded the Fanfare Youth Recorder Club for young recorder players around the world during the pandemic. Sarah also has experience playing jazz music and has collaborated in two published contemporary albums. She is an enthusiastic advocate for the recorder and uses her platform to spread the beauty and versatility of this instrument and inspire others to appreciate it as well.',
+        graphic: sarah,   
     },
 ]
 
