@@ -1,0 +1,69 @@
+.support-container {
+  width: 1000px;
+  max-height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  justify-content: center;
+  background-color: rgba(189, 126, 74, .5);
+  border-radius: 15px;
+  margin-top: 8rem;
+}
+
+.support-text{
+  font-family:"Poppins", sans-serif, monospace;
+  white-space: pre-line;
+  text-align: center;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  margin-top: 5rem ;
+  width: 75%;
+  color: #ffe8cd;
+}
+
+.support-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px; 
+}
+
+.support-form:input {
+  height: 20px;
+  
+}
+
+input[value="donate!"] {
+  height: 45px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  padding:0;
+  background-color: #ffc43a;
+  color: rgba(7, 54, 98, 1);
+  border: white;
+  box-shadow: 0 0 10px#8a8a8aa8;
+  padding: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+
+    -webkit-box-shadow: inset 0 0 15px #ffc43a, 0 0 15px #ffc43a;
+}
+
+input[value="donate!"]:hover {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(7, 54, 98, 1);
+  color: white;
+  border: solid 2px transparent;
+  border-color: #222;
+  box-shadow: 0 0 15px #222;
+  border: none;
+
+  -webkit-box-shadow: inset 0 0 30px #073662, 0 0 30px #073662;
+}
+

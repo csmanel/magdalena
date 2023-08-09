@@ -1,8 +1,8 @@
-// import { Routes, Route, NavLink } from "react-router-dom";
-// import { useState, useEffect } from "react";
-
 import React from "react";
+import "../App.css";
 
 export const HomePage = () => {
-  return <div className="page-content">homepage</div>;
+  return <div className="title-container"> 
+    <h1 className="title">magdalena</h1>
+  </div>;
 };

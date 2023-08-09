@@ -5,16 +5,18 @@ import { membersInfo } from "./Members"
 
 export default function Card({step}) {
     //index into object, grab one info
-    const {name,graphic, bio} = membersInfo[step];
+    const {name,graphic,instrument, bio} = membersInfo[step];
 
     return(
         <div className="card-content">
-            <div>
+            <div className="graphic-container">
                 <img src={graphic} className="graphic" alt={`${name}-about_page`}/>
             </div>
-            <div className="name">{name}</div>
-            <div className="bio-text">{bio}</div>
+            <div className="bio-text">
+                <h1 className="name-text">{name}</h1>
+                {instrument && <h4 className="instrument-text">{instrument}</h4>}
+                {bio}
+            </div>
         </div>
     )
 }
-
