@@ -1,15 +1,11 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
-import { FormProvider} from 'react-hook-form';
-import { Input, TextArea } from './Input';
 import { useForm } from 'react-hook-form'
 import "../Contact.css"
 
 const Form = () => {
-  // const methods = useForm()
   const form = useRef()
   const { register, formState: { errors }, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
   
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,21 +21,11 @@ const Form = () => {
   
   return (
     <div>
-      {/* <FormProvider {...methods}> */}
-        <form 
-        onSubmit={handleSubmit(onSubmit)} 
+      <form 
+        onSubmit={handleSubmit(sendEmail)} 
         className='contact-form'
         ref={form}
-        >
-        {/* // noValidate  
-        // className='contact-form' 
-        // ref={form} 
-        // onSubmit={sendEmail}>*/}
-          
-          {/* <Input type={"text"} name={"user_name"} placeholder={"name"}/>
-          <Input type={"email"} name={"user_email"} placeholder={"email"}/>
-          <TextArea name={"message"} placeholder={"message"}/> */}
-              
+      >       
         <input 
           type="text" 
           name="user_name" 
@@ -66,12 +52,8 @@ const Form = () => {
           aria-invalid={errors.message ? "true" : "false"}
         />
         {errors.message && <p className='form-error' role="alert">{errors.message?.message}</p>}
-
-
-        <input type="submit" value="Send" />
-        
-        </form>
-      {/* </FormProvider> */}
+        <input className='submit-btn' type="submit" value="Send" />
+      </form>
     </div>
   )
 }

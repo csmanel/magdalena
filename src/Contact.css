@@ -7,14 +7,6 @@
   }
   
 .contact-container{
-  /* width: 1000px;
-  height: 600px;
-  color: #222;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
-  border: 1px solid #222; */
   margin-top: 8rem;
   width: 1000px;
   display: flex;
@@ -64,7 +56,6 @@
 
 .contact-form input:hover,
 .contact-form textarea:hover {
-  /* background-color: #ff9129; */
   color: #222;
   box-shadow: 0 0 15px #222;
 }
@@ -118,22 +109,23 @@
   color: #222;
 }
 
-input[type="submit"] {
-  width: 100px;
-  padding:0;
+.contact-form > input[type="submit"] {
   background-color: #1f71bd;
   box-shadow: 0 0 10px#222;
   padding: 0;
+  padding:0;
+  width: 100px;
 }
-input[type="submit"]:hover {
+.contact-form > input[type="submit"]:hover {
   background-color: #ffffffcc;
-  border: solid 2px transparent;
   border-color: #222;
+  border: solid 2px transparent;
   box-shadow: 0 0 15px #222;
+  cursor: pointer;
   font-size: 15px;
 }
-input[value="send"] {
-  width: 100px;  
+.contact-form > input[value="send"] {
+  width: 100px;
 }
 
 .form-error{
@@ -145,13 +137,13 @@ input[value="send"] {
   width: 75%; /*385 px*/
 }
 
-input[aria-invalid="true"] {
+.contact-form > input[aria-invalid="true"] {
   outline: 3px solid rgb(150, 0, 0);
   box-shadow: 0 0 20px rgb(150, 0, 0);
   background-color: #bb5c5c;
 }
 
-textarea[aria-invalid="true"] {
+.contact-form > textarea[aria-invalid="true"] {
   outline: 3px solid rgb(150,0,0);
   box-shadow: 0 0 20px rgb(150, 0, 0);
   background-color: #bb5c5c;

@@ -82,8 +82,8 @@
     justify-content: space-between;
     margin: 20px;
     border-radius: 8px;
+    user-select: none;
   }
-  
 .carousel-btn button {
   background-color: #ffeeda;
   border: none;
@@ -98,12 +98,13 @@
   align-items: center;
   gap: 100px;
   }
-.carousel-btn button:focus {
+.carousel-btn button:active {
+  background-color: #fab676;
 }
 
 .carousel-btn button:hover  {
+  border: solid 1px black;
 box-shadow: 0 0 4px #222;
-background-color: #fab676;
 color: #222;
 }
 
