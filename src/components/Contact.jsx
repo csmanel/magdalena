@@ -1,32 +1,44 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 import "../App.css";
+import "../Contact.css"
+import { GrFacebook, GrInstagram } from 'react-icons/gr';
+import Form from './Form';
+// import { GrFacebook } from 'react-icons/gr';
+// import { GrPaypal } from 'react-icons/gr';
 
 export const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_3ddprkd', 'template_af2fx3u', form.current, 'sKFleaINfjwVf9BGA')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };  
-  
   return (
-    <div>
-      <form className='contact-form' ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+    <div className='contact-container'>
+      <div className='contact-info'> 
+        <h1> get in touch! </h1>
+        <p className='contact-text'>
+          The members of Magdalena are eager to share the wonders of early music in all its forms and subgenres. To hire the ensemble, inquire about partnerships, or be an excitable early music nerd with us, please use the form or email us directly.<br />
+          <br />
+          if you would like to keep up to date with us, please follow our instagram and facebook linked below!
+        </p>
+        <div> magdalenga.ensemble@gmail.com </div>
+
+          <div className='contact-icon-wrapper'>
+            <a 
+              target="_blank" 
+              rel="noreferrer" 
+              href='https://www.instagram.com/magdalena.ensemble/'
+              className='contact-icon'
+            >
+              <GrInstagram />
+            </a>
+            
+            <a
+              target="_blank" 
+              rel="noreferrer" 
+              href='https://www.facebook.com/profile.php?id=100094669223925'
+              className='contact-icon'
+            >
+              <GrFacebook />
+            </a>
+          </div>
+      </div>  
+      <Form />
     </div>
   );
 };
