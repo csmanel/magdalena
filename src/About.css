@@ -97,15 +97,31 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  box-shadow: 0 0 10px#222;
+  border-radius: 10px;
+
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
   }
 .carousel-btn button:active {
   background-color: #fab676;
+  box-shadow: 0 0 10px#222;
+  border: none;
+  border-radius: 10px;
+
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-box-shadow: inset 0 0 15px #fab676, 0 0 15px #fab676;
 }
 
 .carousel-btn button:hover  {
-  border: solid 1px black;
-box-shadow: 0 0 4px #222;
-color: #222;
+  border: solid 1px #222;
+  box-shadow: 0 0 4px #222;
+  color: #222;
+  border-radius: 10px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+
 }
 
  .carousel-btn:disabled,

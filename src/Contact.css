@@ -110,20 +110,39 @@
 }
 
 .contact-form > input[type="submit"] {
-  background-color: #1f71bd;
+  background-color: #ffe8cd;
   box-shadow: 0 0 10px#222;
   padding: 0;
   padding:0;
-  width: 100px;
+  width: 150px;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 10px;
+
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-box-shadow: inset 0 0 15px #ffe8cd, 0 0 15px #ffe8cd;
 }
 .contact-form > input[type="submit"]:hover {
-  background-color: #ffffffcc;
   border-color: #222;
-  border: solid 2px transparent;
+  border: solid 2px #222;
   box-shadow: 0 0 15px #222;
   cursor: pointer;
-  font-size: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-box-shadow: inset 0 0 0px #222, 0 0 8px #222;
 }
+.contact-form > input[type="submit"]:active {
+  background-color: #222;
+  box-shadow: 0 0 15px #222;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-box-shadow: inset 0 0 0px #222, 0 0 8px #222;
+} 
+
 .contact-form > input[value="send"] {
   width: 100px;
 }
@@ -141,6 +160,7 @@
   outline: 3px solid rgb(150, 0, 0);
   box-shadow: 0 0 20px rgb(150, 0, 0);
   background-color: #bb5c5c;
+  
 }
 
 .contact-form > textarea[aria-invalid="true"] {
