@@ -4,20 +4,16 @@ import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./components/HomePage";
 import { AboutPage } from "./components/AboutPage/AboutPage";
 import { Navbar } from "./components/Navbar";
-import { Contact } from "./components/Contact";
-import { Support } from "./components/Support";
-import { SupportSummary } from "./components/SupportSummary";
-import backgroundimg from "./assets/background-three.jpg"
-import { GrInstagram } from 'react-icons/gr';
-import { GrFacebook } from 'react-icons/gr';
-import { GrPaypal } from 'react-icons/gr';
-
-// import { Media } from "./components/Media";
-// import { Upcoming } from "./components/Upcoming";
+import { Contact } from "./components/ContactPage/Contact";
+import { Support } from "./components/SupportPage/Support";
+import { SupportSummary } from "./components/SupportPage/SupportSummary";
+import backgroundimg from "./assets/background-three.jpg";
+import { GrInstagram } from "react-icons/gr";
+import { GrFacebook } from "react-icons/gr";
 
 function App() {
-  const isRoot = '/' === window.location.pathname 
-  console.log(isRoot)
+  const isRoot = "/" === window.location.pathname;
+  console.log(isRoot);
 
   return (
     <div className="landing">
@@ -32,19 +28,33 @@ function App() {
         </Routes>
       </div>
       <div className="footer-container">
-          <div className="footer-text">
-            <p>magdalena.ensemble@gmail.com</p>
-          </div>
-          <div className="footer-links">
-              <a target="_blank" rel="noreferrer" href='https://www.instagram.com/magdalena.ensemble/' className="footer-icons">
-                <GrInstagram />
-              </a>
-              <a target="_blank" rel="noreferrer" href='https://www.facebook.com/profile.php?id=100094669223925'className="footer-icons">
-                <GrFacebook />
-              </a>
-          </div>
+        <div className="footer-text">
+          <p>magdalena.ensemble@gmail.com</p>
+        </div>
+        <div className="footer-links">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/magdalena.ensemble/"
+            className="footer-icons"
+          >
+            <GrInstagram />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100094669223925"
+            className="footer-icons"
+          >
+            <GrFacebook />
+          </a>
+        </div>
       </div>
-      <img src={backgroundimg} className={`background-wrapper ${isRoot ? '' : 'unfocused'}`} alt=""/>
+      <img
+        src={backgroundimg}
+        className={`background-wrapper ${isRoot ? "" : "unfocused"}`}
+        alt=""
+      />
     </div>
   );
 }
