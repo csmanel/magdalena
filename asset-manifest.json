@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/magdalena-ensemble.com/static/css/main.cec3aa3b.css",
-    "main.js": "/magdalena-ensemble.com/static/js/main.5aea7fee.js",
-    "static/media/background-three.jpg": "/magdalena-ensemble.com/static/media/background-three.8cbee932088ac35f702e.jpg",
-    "static/media/magdalena-bio.jpg": "/magdalena-ensemble.com/static/media/magdalena-bio.84036279716b4f5db935.jpg",
-    "static/media/mira-headshot.jpg": "/magdalena-ensemble.com/static/media/mira-headshot.130ea8da01895898c2e8.jpg",
-    "static/media/cole-headshot-two.jpg": "/magdalena-ensemble.com/static/media/cole-headshot-two.79e4979449e49898e2d6.jpg",
-    "static/media/cameron-headshot.jpeg": "/magdalena-ensemble.com/static/media/cameron-headshot.381e450467e4d5928c61.jpeg",
-    "static/media/liv-headshot.jpg": "/magdalena-ensemble.com/static/media/liv-headshot.4123b342f623829fb459.jpg",
-    "static/media/sarah-headshot (2).JPG": "/magdalena-ensemble.com/static/media/sarah-headshot (2).8306973e281a82ad071d.JPG",
-    "index.html": "/magdalena-ensemble.com/index.html",
-    "main.cec3aa3b.css.map": "/magdalena-ensemble.com/static/css/main.cec3aa3b.css.map",
-    "main.5aea7fee.js.map": "/magdalena-ensemble.com/static/js/main.5aea7fee.js.map"
+    "main.css": "/static/css/main.cec3aa3b.css",
+    "main.js": "/static/js/main.0fd41c33.js",
+    "static/media/background-three.jpg": "/static/media/background-three.8cbee932088ac35f702e.jpg",
+    "static/media/magdalena-bio.jpg": "/static/media/magdalena-bio.84036279716b4f5db935.jpg",
+    "static/media/mira-headshot.jpg": "/static/media/mira-headshot.130ea8da01895898c2e8.jpg",
+    "static/media/cole-headshot-two.jpg": "/static/media/cole-headshot-two.79e4979449e49898e2d6.jpg",
+    "static/media/cameron-headshot.jpeg": "/static/media/cameron-headshot.381e450467e4d5928c61.jpeg",
+    "static/media/liv-headshot.jpg": "/static/media/liv-headshot.4123b342f623829fb459.jpg",
+    "static/media/sarah-headshot (2).JPG": "/static/media/sarah-headshot (2).8306973e281a82ad071d.JPG",
+    "index.html": "/index.html",
+    "main.cec3aa3b.css.map": "/static/css/main.cec3aa3b.css.map",
+    "main.0fd41c33.js.map": "/static/js/main.0fd41c33.js.map"
   },
   "entrypoints": [
     "static/css/main.cec3aa3b.css",
-    "static/js/main.5aea7fee.js"
+    "static/js/main.0fd41c33.js"
   ]
 }
