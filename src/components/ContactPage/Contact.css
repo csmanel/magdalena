@@ -8,8 +8,7 @@
 
 .contact-container {
   align-items: center;
-  background-color: rgba(189, 126, 74, 0.5);
-  border-radius: 15px;
+  background-color: rgba(189, 126, 74, 0.856);  border-radius: 15px;
   display: flex;
   justify-content: center;
   margin-top: 8rem;
@@ -70,7 +69,7 @@
 
 .contact-info {
   align-items: center;
-  color: #ffe8cd;
+  color: #222;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,13 +98,13 @@
 }
 
 .contact-icon {
-  color: #ffe8cd;
+  color: #222;
   display: flex;
   font-size: 20px;
 }
 
 .contact-icon:hover {
-  color: #222;
+  color: #ffe8cd;
 }
 
 .contact-form > input[type="submit"] {
