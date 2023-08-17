@@ -42,7 +42,7 @@ body {
 .background-wrapper {
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  filter: brightness(40%);
+  filter: brightness(80%);
   height: 100vh;
   left: 0;
   object-fit: cover;

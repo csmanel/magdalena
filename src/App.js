@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 import { Contact } from "./components/ContactPage/Contact";
 import { Support } from "./components/SupportPage/Support";
 import { SupportSummary } from "./components/SupportPage/SupportSummary";
-import backgroundimg from "./assets/background-three.jpg";
+import backgroundimg from "./assets/background-five.jpg";
 import { GrInstagram } from "react-icons/gr";
 import { GrFacebook } from "react-icons/gr";
 
