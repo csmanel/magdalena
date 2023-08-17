@@ -78,7 +78,7 @@ const Form = () => {
             {errors.message?.message}
           </p>
         )}
-        <input className="submit-btn" type="submit" value="Send" />
+        <input className="submit-btn" type="submit" value="send" />
       </form>
     </div>
   );

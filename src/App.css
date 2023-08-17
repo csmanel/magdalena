@@ -77,6 +77,10 @@ nav a.active {
   font-weight: bold;
 }
 
+nav a.active {
+  background: #d2a56d2c;
+}
+
 .title {
   color: #d2a56d;
   font-family: "Poppins", sans-serif, monospace;
