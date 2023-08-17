@@ -15,7 +15,7 @@ export const membersInfo = [
   {
     name: "liv castor",
     instrument: "harp",
-    bio: "Liv plays harps and spends a fair amount of time sitting under tree sexistential contemplation.",
+    bio: "Liv plays harps and spends a fair amount of time sitting under trees in existential contemplation.",
     graphic: liv,
   },
   {
