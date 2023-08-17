@@ -1,5 +1,5 @@
 import cole from "../../assets/cole-headshot-temp.jpg";
-import magdalena from "../../assets/magdalena-bio.jpg";
+import magdalena from "../../assets/magdalena-bio-temp.jpg";
 import cameron from "../../assets/cameron-headshot-temp.jpg";
 import mira from "../../assets/mira-headshot-temp.jpg";
 import sarah from "../../assets/sarah-headshot-temp.jpg";
@@ -20,7 +20,7 @@ export const membersInfo = [
   },
   {
     name: "mira fu-en huang",
-    instrument: "voice, percussion, viola-da-gamba",
+    instrument: "voice, percussion, viola da gamba",
     bio: "Mira enjoys impersonating boy sopranos and owns a mighty tea collection.",
     graphic: mira,
   },
