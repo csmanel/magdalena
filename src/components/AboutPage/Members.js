@@ -1,9 +1,9 @@
-import cole from "../../assets/cole-headshot-two.jpg";
+import cole from "../../assets/cole-headshot-temp.jpg";
 import magdalena from "../../assets/magdalena-bio.jpg";
-import cameron from "../../assets/cameron-headshot.jpeg";
-import mira from "../../assets/mira-headshot.jpg";
-import sarah from "../../assets/sarah-headshot (2).JPG";
-import liv from "../../assets/liv-headshot.jpg";
+import cameron from "../../assets/cameron-headshot-temp.jpg";
+import mira from "../../assets/mira-headshot-temp.jpg";
+import sarah from "../../assets/sarah-headshot-temp.jpg";
+import liv from "../../assets/liv-headshot-temp.jpg";
 
 export const membersInfo = [
   {
@@ -13,33 +13,33 @@ export const membersInfo = [
     graphic: magdalena,
   },
   {
-    name: "cole manel",
-    instrument: "core member, lute, guitar, plectrum instruments",
-    bio: "Cole is a lutenist who plays other instruments and likes to make noise ",
-    graphic: cole,
-  },
-  {
-    name: "cameron welke",
-    instrument: "core member, lute, plucked instruments",
-    bio: "Cameron plucks all sorts of things (mostly lutes) and is a very mediocre chess player",
-    graphic: cameron,
-  },
-  {
-    name: "mira fu-en huang",
-    instrument: "core member, voice, percussion, viola-da-gamba",
-    bio: "Mira enjoys impersonating boy sopranos and owns a mighty tea collection",
-    graphic: mira,
-  },
-  {
     name: "liv castor",
-    instrument: "core member, harp",
-    bio: "Liv plays harps and spends a fair amount of time sitting under trees .",
+    instrument: "harp",
+    bio: "Liv plays harps and spends a fair amount of time sitting under tree sexistential contemplation.",
     graphic: liv,
   },
   {
+    name: "mira fu-en huang",
+    instrument: "voice, percussion, viola-da-gamba",
+    bio: "Mira enjoys impersonating boy sopranos and owns a mighty tea collection.",
+    graphic: mira,
+  },
+  {
+    name: "cole manel",
+    instrument: "lute, guitar, plectrum instruments",
+    bio: "Cole is a lutenist who for some reason also plays tuba and likes coffee that has fermented for an unreasonable amount of time.",
+    graphic: cole,
+  },
+  {
     name: "sarah shodja",
-    instrument: "core member, recorder",
+    instrument: "recorder",
     bio: "Sarah blows into wooden pipes and is allergic to peanut butter but still risks it sometimes.",
     graphic: sarah,
+  },
+  {
+    name: "cameron welke",
+    instrument: "lute, plucked instruments",
+    bio: "Cameron plucks all sorts of things (mostly lutes) and is a very mediocre chess player.",
+    graphic: cameron,
   },
 ];
