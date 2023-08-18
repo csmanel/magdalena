@@ -9,7 +9,7 @@ export const membersInfo = [
   {
     name: "magdalena",
     instrument: null,
-    bio: "Magdalena is a self-led musical collective with a mission to captivate, enlighten, and uplift audiences of all generations through the beauty of early music. Driven by a shared belief that music of the past holds something special for every person, we strive to bring listeners of all ages and backgrounds into immersive and transformative concert experiences that celebrate early music’s enchanting sounds and rich traditions.",
+    bio: "Magdalena is a musical collective with a mission to captivate, enlighten, and uplift audiences of all generations through the beauty of early music. Driven by a shared belief that music of the past holds something special for every person, we strive to bring listeners of all ages and backgrounds into immersive and transformative concert experiences that celebrate early music’s enchanting sounds and rich traditions.",
     graphic: magdalena,
   },
   {

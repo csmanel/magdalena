@@ -10,14 +10,10 @@ export const Contact = () => {
       <div className="contact-info">
         <h1> get in touch! </h1>
         <p className="contact-text">
-          The members of Magdalena are eager to share the wonders of early music
-          in all its forms and subgenres. To hire the ensemble, inquire about
-          partnerships, or be an excitable early music nerd with us, please use
-          the form or email us directly.
+        The members of Magdalena are eager to share their love for early music with audiences around the world. To hire the ensemble, inquire about partnerships, or be an excitable early music nerd with us, please use the form or email us directly.
           <br />
           <br />
-          if you would like to keep up to date with us, please follow our
-          instagram and facebook linked below!
+          If you would like to be apprised of our activites, please follow our Instagram and Facebook accounts!
         </p>
         <div> magdalena.ensemble@gmail.com </div>
 

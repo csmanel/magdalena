@@ -10,13 +10,7 @@ export const Support = () => {
           Help Magdalena spread the joy of early music across generations!
         </h1>
         <p style={{ fontSize: 18 }}>
-          Just as music shines brightest with an audience, the Magdalena
-          ensemble soars highest with your support. By making a donation, you
-          can help us bring the gift of music to the world. All proceeds
-          directly ensure the ensemble’s success by supporting venue rentals,
-          recording fees, advertising, instrument purchases, and other
-          administrative costs. We deeply thank you and your support of early
-          music!
+        Just as music shines brightest with an audience, Magdalena soars highest with your support. By making a donation, you can help us bring the gift of music to audiences near and far. All proceeds go directly toward operating costs such as venue rentals, recording fees, advertising, instrument purchases, and artist compensation. We deeply thank you for your support of early music!
         </p>
       </div>
       <div className="support-form">
