@@ -19,7 +19,7 @@ export const Contact = () => {
           if you would like to keep up to date with us, please follow our
           instagram and facebook linked below!
         </p>
-        <div> magdalenga.ensemble@gmail.com </div>
+        <div> magdalena.ensemble@gmail.com </div>
 
         <div className="contact-icon-wrapper">
           <a
