@@ -70,18 +70,15 @@ nav a {
   padding: 1px 16px;
   text-decoration: none;
 }
-nav a:hover,
+nav a:hover {
+  background: #d2a56d2c; 
+  /* color: #034511; */
+}
 nav a.active {
-  color: var(--color-two);
+  /* color: #218D38; */
   font-style: italic;
   font-weight: bold;
-}
-
-nav a.active {
-  background: #d2a56d2c;
-  /* color: #218D38; */
-  /* color: #034511; */
-  
+  color: var(--color-two);
 }
 
 .title {
