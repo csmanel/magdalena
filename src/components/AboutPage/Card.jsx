@@ -5,7 +5,7 @@ import { membersInfo } from "./Members"
 
 export default function Card({step}) {
     //index into object, grab one info
-    const {name,graphic,instrument, bio} = membersInfo[step];
+    const { name, graphic, instrument, bio } = membersInfo[step];
 
     return(
         <div className="card-content">
