@@ -50,5 +50,9 @@
     "css-declaration-sorter": "^7.0.3",
     "postcss": "^8.4.27",
     "prettier-plugin-css-order": "^2.0.0"
-  }
+  },
+  "description": "<<<<<<< HEAD =======",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
