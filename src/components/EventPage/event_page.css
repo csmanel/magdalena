@@ -1,0 +1,69 @@
+.event-page-content {
+    align-items: center;
+    background-color: rgba(189, 126, 74, 0.856);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-top: 8rem;
+    padding: 40px 40px 20px 40px;
+    z-index: 1;
+    width: 910px;
+    height: 570px;
+  }
+
+.event-image-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  margin-right: 2rem;
+}
+
+.event-image {
+  border-radius: 10px;
+  box-shadow: 0 0 15px #222;
+  max-height: 95%;
+  max-width: 100%;
+}
+
+.event-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  font-family: "Poppins", sans-serif, monospace;
+  font-size: 1rem;
+}
+
+.event-text p {
+  margin: 0 0 1rem 0;
+}
+
+.event-header {
+  margin: 0;
+}
+
+.sub-header {
+  margin: 0 0 2rem 0;
+  line-height: .5rem;
+  font-style: italic;
+  font-size: .875rem;
+}
+
+.map-link {
+  margin-left: .5rem;
+}
+
+.donation-text {
+  margin-top: .75rem !important;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.event-text a:hover {
+  color: #fff5e9;
+  font-style: italic;
+
+}
+

@@ -10,6 +10,7 @@ import { SupportSummary } from "./components/SupportPage/SupportSummary";
 import backgroundimg from "./assets/background-five.jpg";
 import { GrInstagram } from "react-icons/gr";
 import { GrFacebook } from "react-icons/gr";
+import { EventPage } from "./components/EventPage/EventPage";
 
 function App() {
   const isRoot = "/" === window.location.pathname;
@@ -21,6 +22,7 @@ function App() {
       <div className="landing-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="events" element={<EventPage />} />          
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<Contact />} />
           <Route path="support" element={<Support />} />
