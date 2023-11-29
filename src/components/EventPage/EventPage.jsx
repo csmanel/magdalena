@@ -18,7 +18,7 @@ export const EventPage = () => {
           
 
           <p>Magdalena is coming to DC! Join the ensemble in-person on January 7, 2024, at 2:30pm in St. Mark’s Episcopal Church (301 A Street, SE Washington, DC) for “Óró Mhór a Mhóirín: Songs of Ireland and Scotland." Immerse yourself in the unique sonic tapestry of period instruments playing Irish and Scottish tunes, from heart-rending ballads to raucous dances.</p>
-          <p>This program features special guest performer Niccolo Seligmann:
+          <p>This program features special guest performer Niccolo Seligmann.
           </p>
             <a href="https://www.niccoloseligmann.com/" target="_blank" rel="noreferrer"> 
             Learn more about Niccolo! 
