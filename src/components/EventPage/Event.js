@@ -16,26 +16,6 @@ export const eventInfo = [
   //   donation:'',
   // }
   {
-    title: 'Óró’ Mhór a Mhórín',
-    subTitle: 'Songs from Ireland and Scotland',
-    graphic: stDavids,
-    dateTime: 'Sunday, January 7, 2024 | 2:30pm St. Mark’s Episcopal Church',
-    location: '(301 A Street, SE Washington, DC 20003)',
-    locationLink:
-      "https://www.google.com/maps/place/St+Mark's+Capitol+Hill/@38.8886333,-77.0059307,16z/data=!4m14!1m7!3m6!1s0x89b7b82ef5f9d9ad:0xe10b53b60fe94675!2sSt+Mark's+Capitol+Hill!8m2!3d38.8885086!4d-77.0017451!16s%2Fm%2F06_8bb9!3m5!1s0x89b7b82ef5f9d9ad:0xe10b53b60fe94675!8m2!3d38.8885086!4d-77.0017451!16s%2Fm%2F06_8bb9?entry=ttu",
-    details: [
-      'Magdalena is coming to DC! Join the ensemble in-person on January 7,2024, at 2:30pm in St. Mark’s Episcopal Church (301 A Street, SE Washington, DC) for “Óró Mhór a Mhóirín: Songs of Ireland and Scotland." Immerse yourself in the unique sonic tapestry of period instruments playing Irish and Scottish tunes, from heart-rending ballads to raucous dances.',
-    ],
-    guestInfo: [
-      [
-        'Niccolo Seligmann',
-        'https://www.niccoloseligmann.com/',
-        'This program features special guest performer Niccolo Seligmann.',
-      ],
-    ],
-    donation: 'Pay what you can; $20 suggested donation per person',
-  },
-  {
     title: 'Blended Spirits',
     subTitle: 'A Collaboration Between Magdalena and RVA Baroque',
     graphic: threeSpirits,
@@ -56,5 +36,25 @@ export const eventInfo = [
     ],
     donation:
       'Admission, not including drinks, is Pay What You Will (suggested minimum $20). 21+, please.',
+  },
+  {
+    title: 'Óró’ Mhór a Mhórín',
+    subTitle: 'Songs from Ireland and Scotland',
+    graphic: stDavids,
+    dateTime: 'Sunday, January 7, 2024 | 2:30pm St. Mark’s Episcopal Church',
+    location: '(301 A Street, SE Washington, DC 20003)',
+    locationLink:
+      "https://www.google.com/maps/place/St+Mark's+Capitol+Hill/@38.8886333,-77.0059307,16z/data=!4m14!1m7!3m6!1s0x89b7b82ef5f9d9ad:0xe10b53b60fe94675!2sSt+Mark's+Capitol+Hill!8m2!3d38.8885086!4d-77.0017451!16s%2Fm%2F06_8bb9!3m5!1s0x89b7b82ef5f9d9ad:0xe10b53b60fe94675!8m2!3d38.8885086!4d-77.0017451!16s%2Fm%2F06_8bb9?entry=ttu",
+    details: [
+      'Magdalena is coming to DC! Join the ensemble in-person on January 7,2024, at 2:30pm in St. Mark’s Episcopal Church (301 A Street, SE Washington, DC) for “Óró Mhór a Mhóirín: Songs of Ireland and Scotland." Immerse yourself in the unique sonic tapestry of period instruments playing Irish and Scottish tunes, from heart-rending ballads to raucous dances.',
+    ],
+    guestInfo: [
+      [
+        'Niccolo Seligmann',
+        'https://www.niccoloseligmann.com/',
+        'This program features special guest performer Niccolo Seligmann.',
+      ],
+    ],
+    donation: 'Pay what you can; $20 suggested donation per person',
   },
 ];
