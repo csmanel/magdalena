@@ -9,6 +9,8 @@
   margin-top: 8rem;
   padding: 40px 40px 20px 40px;
   z-index: 1;
+  max-height: 650px;
+  max-width: 1000px;
 }
 
 .card-content {
@@ -23,7 +25,7 @@
 }
 
 .card::after {
-  content: "";
+  content: '';
   display: block;
 }
 
@@ -60,13 +62,13 @@
   font-weight: 500;
 }
 .name-text {
-  font-family: "Poppins", sans-serif, monospace;
+  font-family: 'Poppins', sans-serif, monospace;
   font-size: 40px;
   margin-bottom: 0;
 }
 
 .instrument-text {
-  font-family: "Poppins", sans-serif, monospace;
+  font-family: 'Poppins', sans-serif, monospace;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
