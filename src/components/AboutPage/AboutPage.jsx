@@ -1,6 +1,6 @@
-import { useState } from "react";
-import "./About.css";
-import Card from "./Card";
+import { useState } from 'react';
+import './About.css';
+import Card from './Card';
 
 export const AboutPage = () => {
   const [step, setStep] = useState(0);
