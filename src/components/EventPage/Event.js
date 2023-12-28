@@ -38,7 +38,7 @@ export const eventInfo = [
       'Admission, not including drinks, is Pay What You Will (suggested minimum $20). 21+, please.',
   },
   {
-    title: 'Óró’ Mhór a Mhórín',
+    title: 'Óró’ Mhór a Mhóirín',
     subTitle: 'Songs from Ireland and Scotland',
     graphic: stDavids,
     dateTime: 'Sunday, January 7, 2024 | 2:30pm St. Mark’s Episcopal Church',
