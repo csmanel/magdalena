@@ -25,7 +25,7 @@ export const AboutPage = () => {
         </div>
 
         <div className="carousel-btn">
-          <button disabled={step >= 5} onClick={() => handleNext()}>
+          <button disabled={step >= 6} onClick={() => handleNext()}>
             next
           </button>
         </div>

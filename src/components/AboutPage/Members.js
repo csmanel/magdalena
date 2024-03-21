@@ -4,6 +4,7 @@ import cameron from '../../assets/cameron-headshot-temp.jpg';
 import mira from '../../assets/mira-headshot-temp.jpg';
 import sarah from '../../assets/sarah-headshot-temp.jpg';
 import liv from '../../assets/liv-headshot-temp.jpg';
+import niccolo from '../../assets/niccolo-headshot.jpg';
 
 export const membersInfo = [
   {
@@ -41,5 +42,11 @@ export const membersInfo = [
     instrument: 'lute, plucked instruments',
     bio: 'Cameron plucks all sorts of things (mostly lutes) and is a very mediocre chess player.',
     graphic: cameron,
+  },
+  {
+    name: 'niccolo seligmann',
+    instrument: 'collaborator - bowed instruments',
+    bio: 'Niccolo bows, plucks, and percusses dozens of instruments, and pickles various vegetables from their garden.',
+    graphic: niccolo,
   },
 ];
