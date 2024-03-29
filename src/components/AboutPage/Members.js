@@ -5,6 +5,7 @@ import mira from '../../assets/mira-headshot-temp.jpg';
 import sarah from '../../assets/sarah-headshot-temp.jpg';
 import liv from '../../assets/liv-headshot-temp.jpg';
 import niccolo from '../../assets/niccolo-headshot.jpg';
+// import mag from '../../assets/mag_logo.png';
 
 export const membersInfo = [
   {
@@ -21,7 +22,7 @@ export const membersInfo = [
   },
   {
     name: 'mira fu-en huang',
-    instrument: 'voice, percussion, viola da gamba',
+    instrument: 'voice, percussion',
     bio: 'Mira enjoys impersonating boy sopranos and owns a mighty tea collection.',
     graphic: mira,
   },
@@ -49,4 +50,10 @@ export const membersInfo = [
     bio: 'Niccolo bows, plucks, and percusses dozens of instruments, and pickles various vegetables from their garden.',
     graphic: niccolo,
   },
+  // {
+  //   name: 'press-kit materials',
+  //   instrument: null,
+  //   bio: 'For full performer bios and other professional materials click here!',
+  //   graphic: mag,
+  // },
 ];
