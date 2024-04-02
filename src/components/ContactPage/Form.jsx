@@ -1,7 +1,8 @@
-import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
-import { useForm } from "react-hook-form";
-import "./Contact.css";
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import { useForm } from 'react-hook-form';
+import './Contact.css';
+import '../AboutPage/About.css';
 
 const Form = () => {
   const form = useRef();
@@ -17,10 +18,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_3ddprkd",
-        "template_af2fx3u",
+        'service_3ddprkd',
+        'template_af2fx3u',
         form.current,
-        "sKFleaINfjwVf9BGA"
+        'sKFleaINfjwVf9BGA'
       )
       .then(
         (result) => {
@@ -44,10 +45,10 @@ const Form = () => {
           type="text"
           name="user_name"
           placeholder="name"
-          {...register("user_name", { required: true })}
-          aria-invalid={errors.user_name ? "true" : "false"}
+          {...register('user_name', { required: true })}
+          aria-invalid={errors.user_name ? 'true' : 'false'}
         />
-        {errors.user_name?.type === "required" && (
+        {errors.user_name?.type === 'required' && (
           <p className="form-error" role="alert">
             name is required
           </p>
@@ -57,8 +58,8 @@ const Form = () => {
           type="email"
           name="user_email"
           placeholder="email"
-          {...register("user_email", { required: "email address is required" })}
-          aria-invalid={errors.user_email ? "true" : "false"}
+          {...register('user_email', { required: 'email address is required' })}
+          aria-invalid={errors.user_email ? 'true' : 'false'}
         />
         {errors.user_email && (
           <p className="form-error" role="alert">
@@ -70,15 +71,15 @@ const Form = () => {
           type="message"
           name="message"
           placeholder="message"
-          {...register("message", { required: "a message is required" })}
-          aria-invalid={errors.message ? "true" : "false"}
+          {...register('message', { required: 'a message is required' })}
+          aria-invalid={errors.message ? 'true' : 'false'}
         />
         {errors.message && (
           <p className="form-error" role="alert">
             {errors.message?.message}
           </p>
         )}
-        <input className="submit-btn" type="submit" value="send" />
+        <input className="carousel-btn" type="submit" value="send" />
       </form>
     </div>
   );

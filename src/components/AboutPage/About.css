@@ -99,14 +99,6 @@
   height: 30px;
   border: none;
 }
-.carousel-btn button:active {
-  -moz-border-radius: 28px;
-  -webkit-border-radius: 28px;
-  background-color: #222;
-  border-radius: 10px;
-  color: white;
-}
-
 .carousel-btn button:hover {
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
@@ -114,6 +106,13 @@
   border-radius: 10px;
   border: solid 2px #222;
   cursor: pointer;
+}
+.carousel-btn button:active {
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  background-color: #222;
+  border-radius: 10px;
+  color: white;
 }
 
 .carousel-btn:disabled,
