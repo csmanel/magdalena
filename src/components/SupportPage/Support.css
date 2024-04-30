@@ -1,6 +1,7 @@
 .support-container {
   align-items: center;
-  background-color: rgba(189, 126, 74, 0.856);  border-radius: 15px;
+  background-color: rgba(189, 126, 74, 0.856);
+  border-radius: 15px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -14,7 +15,7 @@
 .support-text {
   -moz-text-align-last: center;
   color: #222;
-  font-family: "Poppins", sans-serif, monospace;
+  font-family: 'Poppins', sans-serif, monospace;
   margin-top: 5rem;
   text-align-last: center;
   text-align: center;

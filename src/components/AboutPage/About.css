@@ -14,7 +14,6 @@
 }
 
 .card-content {
-  /* border: 4px solid #222; */
   align-items: center;
   color: #222;
   column-gap: 10px;
@@ -38,7 +37,6 @@
 }
 
 .graphic {
-  /* box-shadow:0 0 0 8px #472c19; */
   border-radius: 10px;
   box-shadow: 0 0 15px #222;
   max-height: 95%;

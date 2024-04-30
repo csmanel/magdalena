@@ -148,7 +148,7 @@
   font-size: 18px;
   line-height: 15px;
   margin: 5px 0 0;
-  width: 75%; /*385 px*/
+  width: 75%;
 }
 
 .contact-form > input[aria-invalid='true'] {
