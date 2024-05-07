@@ -70,3 +70,50 @@
   background-color: rgba(7, 54, 98, 1);
   color: white;
 }
+
+@media (max-width: 768px) {
+  .support-container {
+    width: 90%;
+  }
+
+  .support-text {
+    width: 90%;
+  }
+
+  .donate-btn {
+    width: 150px;
+    font-size: 20px;
+    height: 35px;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+  .support-container {
+    width: 50%;
+  }
+
+  .support-text {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .support-container {
+    width: 900px;
+  }
+
+  .support-text {
+    width: 70%;
+  }
+
+  .donate-btn {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1921px) {
+  .support-container {
+    width: 1000px;
+  }
+}
