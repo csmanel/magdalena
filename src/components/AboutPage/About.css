@@ -120,3 +120,16 @@ button[disabled] {
   color: #666666;
   pointer-events: none;
 }
+
+@media (max-width: 1502px) {
+  .page-content {
+    max-height: 550px;
+    max-width: 890px;
+  }
+}
+
+@media (max-height: 870px) {
+  .page-content {
+    margin-top: 4rem;
+  }
+}

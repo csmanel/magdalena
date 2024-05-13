@@ -159,3 +159,9 @@ nav a.active {
     min-width: initial;
   }
 }
+
+@media (max-width: 1418px) {
+  .title {
+    font-size: 74px;
+  }
+}
