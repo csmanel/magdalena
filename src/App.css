@@ -165,3 +165,11 @@ nav a.active {
     font-size: 74px;
   }
 }
+
+@media (max-width: 428px) {
+  .background-wrapper {
+  }
+  .title {
+    font-size: 60px;
+  }
+}
