@@ -19,22 +19,22 @@ function App() {
 
   const [backgroundImg, setBackgroundImg] = useState(backgroundImgOne);
 
-  useEffect(() => {
-    function handleResize() {
-      console.log(window.innerWidth, window.visualViewport.width);
-      if (window.innerWidth <= 428) {
-        setBackgroundImg(backgroundImgTwo);
-      } else {
-        setBackgroundImg(backgroundImgOne);
-      }
-    }
-    handleResize();
+  // useEffect(() => {
+  //   function handleResize() {
+  //     console.log(window.innerWidth, window.visualViewport.width);
+  //     if (window.innerWidth <= 428) {
+  //       setBackgroundImg(backgroundImgTwo);
+  //     } else {
+  //       setBackgroundImg(backgroundImgOne);
+  //     }
+  //   }
+  //   handleResize();
 
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  //   window.addEventListener('resize', handleResize);
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
   return (
     <div className="landing">
