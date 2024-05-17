@@ -1,20 +1,40 @@
-import "./App.css";
-import "./index.css";
-import { Routes, Route } from "react-router-dom";
-import { HomePage } from "./components/HomePage";
-import { AboutPage } from "./components/AboutPage/AboutPage";
-import { Navbar } from "./components/Navbar";
-import { Contact } from "./components/ContactPage/Contact";
-import { Support } from "./components/SupportPage/Support";
-import { SupportSummary } from "./components/SupportPage/SupportSummary";
-import backgroundimg from "./assets/background-five.jpg";
-import { GrInstagram } from "react-icons/gr";
-import { GrFacebook } from "react-icons/gr";
-import { EventPage } from "./components/EventPage/EventPage";
+import './App.css';
+import './index.css';
+import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { HomePage } from './components/HomePage';
+import { AboutPage } from './components/AboutPage/AboutPage';
+import { Navbar } from './components/Navbar';
+import { Contact } from './components/ContactPage/Contact';
+import { Support } from './components/SupportPage/Support';
+import { SupportSummary } from './components/SupportPage/SupportSummary';
+import { GrInstagram } from 'react-icons/gr';
+import { GrFacebook } from 'react-icons/gr';
+import { EventPage } from './components/EventPage/EventPage';
+import backgroundImgOne from './assets/background-five.jpg';
+import backgroundImgTwo from './assets/m-lightbrown.png';
 
 function App() {
-  const isRoot = "/" === window.location.pathname;
-  console.log(isRoot);
+  const isRoot = '/' === window.location.pathname;
+
+  const [backgroundImg, setBackgroundImg] = useState(backgroundImgOne);
+
+  useEffect(() => {
+    function handleResize() {
+      console.log(window.innerWidth, window.visualViewport.width);
+      if (window.innerWidth <= 428) {
+        setBackgroundImg(backgroundImgTwo);
+      } else {
+        setBackgroundImg(backgroundImgOne);
+      }
+    }
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className="landing">
@@ -22,7 +42,7 @@ function App() {
       <div className="landing-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="events" element={<EventPage />} />          
+          <Route path="events" element={<EventPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<Contact />} />
           <Route path="support" element={<Support />} />
@@ -53,8 +73,8 @@ function App() {
         </div>
       </div>
       <img
-        src={backgroundimg}
-        className={`background-wrapper ${isRoot ? "" : "unfocused"}`}
+        src={backgroundImg}
+        className={`background-wrapper ${isRoot ? '' : 'unfocused'}`}
         alt=""
       />
     </div>
