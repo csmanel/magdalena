@@ -75,6 +75,11 @@ body {
   width: 200px;
   z-index: 3;
 }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
 nav a {
   color: var(--color-one);
   display: block;
@@ -171,5 +176,48 @@ nav a.active {
   }
   .title {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    background: #333;
+    width: 100%;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .primary-nav a {
+    margin: 1rem 0;
+  }
+}
+
+/* Ensure the nav displays normally on larger screens */
+@media (min-width: 769px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    background: none;
+    width: auto;
+  }
+
+  .primary-nav a {
+    margin: 0 1rem;
   }
 }
