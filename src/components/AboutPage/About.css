@@ -1,7 +1,8 @@
 /* about page stuff */
 .page-content {
   align-items: center;
-  background-color: rgba(189, 126, 74, 0.856);
+  background-color: rgba(189, 126, 74, 0.96);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
   border-radius: 15px;
   display: flex;
   flex-direction: column;

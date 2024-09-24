@@ -1,6 +1,8 @@
 .event-page-content {
   display: flex;
   flex-direction: row;
+  max-width: 440px;
+  min-height: 610px;
 }
 
 .event-image-container {
@@ -21,6 +23,7 @@
 
 .event-text {
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex-grow: 1;
   flex-basis: 0;
@@ -57,10 +60,4 @@
 .event-text a:hover {
   color: #fff5e9;
   font-style: italic;
-}
-
-@media (max-width: 1502px) {
-  .event-text {
-    font-size: 0.8rem;
-  }
 }

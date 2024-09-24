@@ -55,7 +55,9 @@ export default function EventCard({ step }) {
         })}
         {donation.text && (
           <p>
+            <br />
             {donation.text}
+
             {donation.link && (
               <a href={donation.link} target="_blank" rel="noopener noreferrer">
                 click here
