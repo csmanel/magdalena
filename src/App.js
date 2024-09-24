@@ -11,7 +11,7 @@ import { SupportSummary } from './components/SupportPage/SupportSummary';
 import { GrInstagram } from 'react-icons/gr';
 import { GrFacebook } from 'react-icons/gr';
 import { EventPage } from './components/EventPage/EventPage';
-import backgroundImgOne from './assets/background-five.jpg';
+import backgroundImgOne from './assets/4958.jpg';
 import backgroundImgTwo from './assets/m-lightbrown.png';
 
 function App() {
