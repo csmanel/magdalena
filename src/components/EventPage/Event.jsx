@@ -39,12 +39,11 @@ export const eventInfo = [
     location: 'St David’s Church (4700 Roland Ave, Baltimore, MD 21210)',
     details: [
       "Don’t miss Magdalena’s spring tour kickoff! Join us in-person or virtually on Friday, April 4, 2025, 7:30pm at St David’s Church for the debut of our program, 'Salon: Scenes from a French Landscape.' Enjoy this narrated program highlighting the early music of France, from boisterous countryside dances to intimate air de cours.",
-      'This concert is kindly hosted by the Music at St David’s concert series. To learn more, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by the Music at St David’s concert series. To learn more, ',
+      link: 'https://stdavidsbaltimore.org/music-events/event-tickets/',
     },
   },
   {
@@ -55,12 +54,11 @@ export const eventInfo = [
       'Owen Brown Interfaith Center (7246 Cradlerock Way, Columbia, MD 21045)',
     details: [
       "Catch Magdalena performing in Columbia, Maryland! Join us in-person on Saturday, April 5, 2025, 7:00pm at the Owen Brown Interfaith Center for 'Salon: Scenes from a French Landscape.' In this full length, immersive concert experience, we will guide audiences through the varied locales iconic to Renaissance France.",
-      'This concert is kindly hosted by the Chalice Concert Series. To learn more and purchase tickets, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by the Chalice Concert Series. To learn more and purchase tickets, ',
+      link: 'https://uucolumbia.net/programs/music/ccs/',
     },
   },
   {
@@ -71,12 +69,11 @@ export const eventInfo = [
       'Emmanuel Episcopal Church (811 Cathedral St, Baltimore, MD 21201)',
     details: [
       "Join us in-person on Tuesday, April 8, 2025, 6:00pm at Emmanuel Episcopal Church for 'Salon: Scenes from a French Landscape.' In this hour-long, immersive concert experience, Magdalena will tell the story of Margot, a girl who travels from the French countryside to the court in search of her promised prince.",
-      'This concert is kindly hosted by the Emmanuel Church’s Tuesdays at 6 series. To learn more and purchase tickets, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by the Emmanuel Church’s Tuesdays at 6 series. To learn more and purchase tickets, ',
+      link: 'https://www.eventbrite.com/cc/tuesdays-at-six-1145069',
     },
   },
   {
@@ -87,12 +84,11 @@ export const eventInfo = [
       'St Paul’s Episcopal Church (914 E Knapp St, Milwaukee, WI 53202)',
     details: [
       "Magdalena is thrilled to perform in Milwaukee on Saturday, April 26, 2025, 5:00pm, under Early Music Now! Don’t miss this special full-length performance of 'Salon: Scenes from a French Landscape,' an exciting program which will explore nearly every facet of the music from Renaissance France.",
-      'This concert is kindly hosted by Early Music Now. To learn more and purchase tickets, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by Early Music Now. To learn more and purchase tickets, ',
+      link: 'https://www.earlymusicnow.org/this-season/',
     },
   },
   {
@@ -102,12 +98,11 @@ export const eventInfo = [
     location: 'St Malachy’s Church (239 W 49th St, New York, NY 10019)',
     details: [
       "Magdalena is coming to New York! Join us in-person or virtually on Thursday, May 8, 2025, 1:15pm at St Malachy’s Church for a performance of our signature Celtic program, 'Óró Mhór a Mhóirín: Songs of Ireland and Scotland.' Immerse yourself in the unique sonic tapestry of period instruments playing Irish and Scottish tunes, from heartrending ballads to raucous dances.",
-      'This concert is kindly hosted by GEMS Midtown Concerts. For more information, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by GEMS Midtown Concerts. For more information, ',
+      link: 'https://www.gemsny.org/current-season',
     },
   },
   {
@@ -117,12 +112,11 @@ export const eventInfo = [
     location: 'Indiana History Center (450 W Ohio St, Indianapolis, IN 46202)',
     details: [
       "Don’t miss Magdalena in their exciting debut with the Indianapolis Early Music Festival! Join us in-person or virtually for a special full-length performance of our program, 'Óró Mhór a Mhóirín: Songs of Ireland and Scotland.' Enjoy this celebration of Irish and Scottish music, from heartrending ballads to raucous dances adapted from both historic manuscripts and the oral tradition.",
-      'This concert is kindly hosted by the Indianapolis Early Music Festival. For tickets and more information, click here.',
     ],
     guestInfo: [],
     donation: {
-      text: 'Tickets and further information to be disclosed at a later date.',
-      link: null,
+      text: 'This concert is kindly hosted by the Indianapolis Early Music Festival. For tickets and more information, ',
+      link: 'https://www.indyearlymusic.org/',
     },
   },
 ];
