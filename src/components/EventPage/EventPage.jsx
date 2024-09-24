@@ -1,16 +1,17 @@
 import { useState } from 'react';
 import './event_page.css';
 import EventCard from './EventCard';
+import { eventInfo } from './Event';
 
 export const EventPage = () => {
   const [step, setStep] = useState(0);
 
   function handlePrevious() {
-    setStep((step) => step - 1);
+    setStep((prevStep) => Math.max(prevStep - 1, 0));
   }
 
   function handleNext() {
-    setStep((step) => step + 1);
+    setStep((prevStep) => Math.min(prevStep + 1, eventInfo.length - 1));
   }
 
   return (
@@ -25,8 +26,12 @@ export const EventPage = () => {
         </div>
 
         <div className="carousel-btn">
-          <button disabled={step >= 1} onClick={() => handleNext()}>
+          <button
+            disabled={step >= eventInfo.length - 1}
+            onClick={handleNext}
             next
+          >
+            Next
           </button>
         </div>
       </div>

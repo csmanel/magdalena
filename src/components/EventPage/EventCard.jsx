@@ -4,23 +4,27 @@ import { eventInfo } from './Event';
 
 export default function EventCard({ step }) {
   const {
-    title,
-    subTitle,
-    graphic,
-    dateTime,
-    location,
-    locationLink,
-    details,
-    guestInfo,
-    donation,
-  } = eventInfo[step];
+    season = '',
+    title = '',
+    subTitle = '',
+    graphic = null,
+    dateTime = '',
+    location = '',
+    locationLink = '',
+    details = [],
+    guestInfo = [],
+    donation = '',
+  } = eventInfo[step] || {};
 
   return (
     <div className="event-page-content">
-      <div className="event-image-container">
-        <img src={graphic} className="event-image" alt="event" />
-      </div>
+      {graphic ? (
+        <div className="event-image-container">
+          <img src={graphic} className="event-image" alt="event" />
+        </div>
+      ) : null}
       <div className="event-text">
+        <h1 className="season-header">{season}</h1>
         <h2 className="event-header">{title}</h2>
         <p className="sub-header">{subTitle}</p>
         <p>
@@ -49,7 +53,16 @@ export default function EventCard({ step }) {
             </>
           );
         })}
-        <p className="donation-text"> {donation} </p>
+        {donation.text && (
+          <p>
+            {donation.text}
+            {donation.link && (
+              <a href={donation.link} target="_blank" rel="noopener noreferrer">
+                click here
+              </a>
+            )}
+          </p>
+        )}
       </div>
     </div>
   );
