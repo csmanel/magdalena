@@ -64,7 +64,7 @@
 
 @media (max-width: 1503px) {
   .event-page-content {
-    max-width: 90%;
+    max-width: 440px;
     min-height: calc((440 / 610) * 90%);
     padding: 1rem;
   }
@@ -76,7 +76,7 @@
 
 @media (max-width: 1200px) {
   .event-page-content {
-    max-width: 80%;
+    /* max-width: 80%; */
     min-height: calc((440 / 610) * 80%);
   }
 
@@ -87,7 +87,7 @@
 
 @media (max-width: 992px) {
   .event-page-content {
-    max-width: 90%;
+    /* max-width: 90%; */
     min-height: calc((440 / 610) * 90%);
   }
 
