@@ -4,19 +4,6 @@ import threeSpirits from '../../assets/three spirits v2.png';
 export const eventInfo = [
   {
     season: 'Fall 2024',
-    title: 'The Women of Magdala',
-    dateTime: 'Tuesday, October 22, 2024 | 7:30pm ',
-    location: 'Harkness Chapel (11200 Bellflower Rd, Cleveland, OH 44106)',
-    details: [
-      'Magdalena is thrilled to kick off our 2024-2025 season with a featured performance on Early Music America’s Emerging Artist Showcase! Join us for excerpts from our program “The Women of Magdala,” a narrated concert experience which tells the stories of women in history through musical vignettes. For this shortened performance, we invite you to witness the stories of Madailéin Ní Ceallaigh, representing Ireland and Scotland, and Madeleine de Valois, representing France.',
-    ],
-    donation: {
-      text: 'This concert is kindly hosted by Early Music America as a part of their 2024 Summit. For more information ',
-      link: 'https://www.earlymusicamerica.org/summit/',
-    },
-  },
-  {
-    season: 'Fall 2024',
     title: 'That Place Beyond the Sky',
     dateTime: 'Sunday, December 8, 2024 | 7:30pm',
     location: '2640 Space (2640 St Paul St, Baltimore, MD 21218)',
@@ -163,5 +150,18 @@ const previousEvents = [
       ],
     ],
     donation: 'Pay what you can; $20 suggested donation per person',
+  },
+  {
+    season: 'Fall 2024',
+    title: 'The Women of Magdala',
+    dateTime: 'Tuesday, October 22, 2024 | 7:30pm ',
+    location: 'Harkness Chapel (11200 Bellflower Rd, Cleveland, OH 44106)',
+    details: [
+      'Magdalena is thrilled to kick off our 2024-2025 season with a featured performance on Early Music America’s Emerging Artist Showcase! Join us for excerpts from our program “The Women of Magdala,” a narrated concert experience which tells the stories of women in history through musical vignettes. For this shortened performance, we invite you to witness the stories of Madailéin Ní Ceallaigh, representing Ireland and Scotland, and Madeleine de Valois, representing France.',
+    ],
+    donation: {
+      text: 'This concert is kindly hosted by Early Music America as a part of their 2024 Summit. For more information ',
+      link: 'https://www.earlymusicamerica.org/summit/',
+    },
   },
 ];
