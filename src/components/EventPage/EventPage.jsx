@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import './event_page.css';
 import EventCard from './EventCard';
 import { eventInfo } from './Event';
+import CarouselButton from '../Buttons/CarouselButtons/CarouselButton';
+import './event_page.css';
 
 export const EventPage = () => {
   const [step, setStep] = useState(0);
@@ -19,21 +20,16 @@ export const EventPage = () => {
       <EventCard step={step} />
 
       <div className="carousel-controls">
-        <div className="carousel-btn">
-          <button disabled={step <= 0} onClick={() => handlePrevious()}>
-            previous
-          </button>
-        </div>
-
-        <div className="carousel-btn">
-          <button
-            disabled={step >= eventInfo.length - 1}
-            onClick={handleNext}
-            next
-          >
-            Next
-          </button>
-        </div>
+        <CarouselButton
+          label="Previous"
+          onClick={handlePrevious}
+          disabled={step <= 0}
+        />
+        <CarouselButton
+          label="Next"
+          onClick={handleNext}
+          disabled={step >= eventInfo.length - 1}
+        />
       </div>
     </div>
   );

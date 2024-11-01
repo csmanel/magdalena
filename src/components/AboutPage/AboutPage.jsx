@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import './About.css';
 import Card from './Card';
+import CarouselButton from '../Buttons/CarouselButtons/CarouselButton';
+import './About.css';
 
 export const AboutPage = () => {
   const [step, setStep] = useState(0);
@@ -18,17 +19,16 @@ export const AboutPage = () => {
       <Card step={step} />
 
       <div className="carousel-controls">
-        <div className="carousel-btn">
-          <button disabled={step <= 0} onClick={() => handlePrevious()}>
-            previous
-          </button>
-        </div>
-
-        <div className="carousel-btn">
-          <button disabled={step >= 6} onClick={() => handleNext()}>
-            next
-          </button>
-        </div>
+        <CarouselButton
+          label="Previous"
+          onClick={handlePrevious}
+          disabled={step <= 0}
+        />
+        <CarouselButton
+          label="Next"
+          onClick={handleNext}
+          disabled={step >= 6}
+        />
       </div>
     </div>
   );
