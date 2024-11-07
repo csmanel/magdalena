@@ -47,9 +47,11 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "css-declaration-sorter": "^7.0.3",
-    "postcss": "^8.4.27",
-    "prettier-plugin-css-order": "^2.0.0"
+    "postcss": "^8.4.47",
+    "prettier-plugin-css-order": "^2.0.0",
+    "tailwindcss": "^3.4.14"
   },
   "description": "<<<<<<< HEAD =======",
   "main": "index.js",

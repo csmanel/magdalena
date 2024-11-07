@@ -1,6 +1,6 @@
 import './App.css';
 import './index.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { HomePage } from './components/HomePage';
 import { AboutPage } from './components/AboutPage/AboutPage';
@@ -20,9 +20,10 @@ function App() {
   const [backgroundImg, setBackgroundImg] = useState(backgroundImgOne);
 
   return (
-    <div className="landing">
+    <div className="relative min-h-screen w-full">
       <Navbar />
-      <div className="landing-content">
+      {/* <div className="landing-content"> */}
+      <div className="flex items-center justify-center ">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="events" element={<EventPage />} />
