@@ -2,7 +2,6 @@ import { useState } from 'react';
 import EventCard from './EventCard';
 import { eventInfo } from './Event';
 import CarouselButton from '../Buttons/CarouselButtons/CarouselButton';
-import './event_page.css';
 
 export const EventPage = () => {
   const [step, setStep] = useState(0);
@@ -16,10 +15,10 @@ export const EventPage = () => {
   }
 
   return (
-    <div className="page-content">
+    <div className="flex flex-col items-center justify-center bg-[#bd7e4a] bg-opacity-95 shadow-lg rounded-lg mt-32 p-10 pt-40 max-h-[650px] max-w-[1000px] z-10">
       <EventCard step={step} />
 
-      <div className="carousel-controls">
+      <div className="flex pt-0">
         <CarouselButton
           label="Previous"
           onClick={handlePrevious}
