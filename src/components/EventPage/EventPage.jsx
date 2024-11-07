@@ -15,7 +15,7 @@ export const EventPage = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#bd7e4a] bg-opacity-95 shadow-lg rounded-lg mt-32 p-10 pt-40 max-h-[650px] max-w-[1000px] z-10">
+    <div className="flex flex-col items-center justify-center bg-[#bd7e4a] bg-opacity-95 shadow-lg rounded-lg mt-32 pt-10 pr-10 pb-5 pl-10  max-w-[1000px]">
       <EventCard step={step} />
 
       <div className="flex pt-0">
