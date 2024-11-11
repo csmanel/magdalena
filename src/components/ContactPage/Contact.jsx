@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <div className="contact-container">
       <div className="contact-info">
-        <h1> get in touch! </h1>
+        <h1> Get in touch! </h1>
         <p className="contact-text">
           The members of Magdalena are eager to share their love for early music
           with audiences around the world. To hire the ensemble, inquire about
