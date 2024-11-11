@@ -15,10 +15,10 @@ export const AboutPage = () => {
   }
 
   return (
-    <div className="page-content">
+    <div className="mx-auto mt-32 p-10 flex flex-col items-center justify-center bg-[rgba(189,126,74,0.96)] shadow-lg rounded-2xl max-h-[650px] max-w-[1000px]">
       <Card step={step} />
 
-      <div className="carousel-controls">
+      <div className="flex space-x-4 mt-6">
         <CarouselButton
           label="Previous"
           onClick={handlePrevious}

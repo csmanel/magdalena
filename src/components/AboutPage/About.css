@@ -1,18 +1,4 @@
 /* about page stuff */
-.page-content {
-  align-items: center;
-  background-color: rgba(189, 126, 74, 0.96);
-  box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 8rem;
-  padding: 40px 40px 20px 40px;
-  z-index: 1;
-  max-height: 650px;
-  max-width: 1000px;
-}
 
 .card-content {
   align-items: center;
