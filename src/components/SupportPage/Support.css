@@ -12,18 +12,6 @@
   z-index: 1;
 }
 
-.support-text {
-  -moz-text-align-last: center;
-  color: #222;
-  font-family: 'Poppins', sans-serif, monospace;
-  margin-top: 5rem;
-  text-align-last: center;
-  text-align: center;
-  white-space: pre-line;
-  width: 75%;
-  font-weight: 500;
-}
-
 .support-form {
   align-items: center;
   display: flex;

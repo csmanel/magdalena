@@ -2,7 +2,6 @@ import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import './Contact.css';
-import '../AboutPage/About.css';
 
 const Form = () => {
   const form = useRef();

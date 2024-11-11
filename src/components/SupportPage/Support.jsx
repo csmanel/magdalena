@@ -1,16 +1,21 @@
-import "./../../App.css";
-import "./../ContactPage/Contact.css";
-import "./Support.css";
+import './../../App.css';
+import './../ContactPage/Contact.css';
+import './Support.css';
 
 export const Support = () => {
   return (
     <div className="support-container">
-      <div className="support-text">
-        <h1>
+      <div className="support-text text-center font-poppins mt-20 w-3/4 font-medium whitespace-pre-line">
+        <h1 className="text-lg font-semibold pb-8">
           Help Magdalena spread the joy of early music across generations!
         </h1>
-        <p style={{ fontSize: 18 }}>
-        Just as music shines brightest with an audience, Magdalena soars highest with your support. By making a donation, you can help us bring the gift of music to audiences near and far. All proceeds go directly toward operating costs such as venue rentals, recording fees, advertising, instrument purchases, and artist compensation. We deeply thank you for your support of early music!
+        <p className="text-base">
+          Just as music shines brightest with an audience, Magdalena soars
+          highest with your support. By making a donation, you can help us bring
+          the gift of music to audiences near and far. All proceeds go directly
+          toward operating costs such as venue rentals, recording fees,
+          advertising, instrument purchases, and artist compensation. We deeply
+          thank you for your support of early music!
         </p>
       </div>
       <div className="support-form">

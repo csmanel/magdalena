@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Card from './Card';
 import CarouselButton from '../Buttons/CarouselButtons/CarouselButton';
-import './About.css';
 
 export const AboutPage = () => {
   const [step, setStep] = useState(0);
