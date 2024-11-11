@@ -6,13 +6,21 @@ export default function Card({ step }) {
   const { name, graphic, instrument, bio } = membersInfo[step];
 
   return (
-    <div className="card-content">
-      <div className="graphic-container">
-        <img src={graphic} className="graphic" alt={`${name}-about_page`} />
+    <div className="flex items-center  gap-2 max-h-[600px] max-w-[1000px] overflow-hidden">
+      <div className="flex items-center justify-center h-[500px] w-[500px]">
+        <img
+          src={graphic}
+          className="rounded-lg max-h-[95%] max-w-full"
+          alt={`${name}-about_page`}
+        />
       </div>
-      <div className="bio-text">
-        <h1 className="name-text">{name}</h1>
-        {instrument && <h4 className="instrument-text">{instrument}</h4>}
+      <div className=" text-lg font-medium gap-2 mt-4 max-h-[600px] max-w-[400px] overflow-y-scroll">
+        <h1 className="font-poppins text-4xl mb-0">{name}</h1>
+        {instrument && (
+          <h4 className="font-poppins text-lg italic font-light mb-20 mt-0">
+            {instrument}
+          </h4>
+        )}
         {bio}
       </div>
     </div>

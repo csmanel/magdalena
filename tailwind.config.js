@@ -10,6 +10,9 @@ module.exports = {
         colorFour: 'black',
         colorFive: '#ffe8cd',
       },
+      boxShadow: {
+        custom: '0 0 15px #222',
+      },
     },
   },
   plugins: [],
