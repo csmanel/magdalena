@@ -15,7 +15,7 @@ import backgroundImgOne from './assets/4958.jpg';
 
 function App() {
   const isRoot = '/' === window.location.pathname;
-  const location = useLocation(); // Get current location
+  const location = useLocation();
 
   const [backgroundImg, setBackgroundImg] = useState(backgroundImgOne);
 
@@ -25,9 +25,9 @@ function App() {
       <div className="flex items-center justify-center">
         <SwitchTransition mode="out-in">
           <CSSTransition
-            key={location.pathname} // Unique key based on path
-            timeout={500} // Duration of animation in ms
-            classNames="fade" // CSS class prefix
+            key={location.pathname}
+            timeout={500}
+            classNames="fade"
             unmountOnExit
           >
             <Routes location={location}>
