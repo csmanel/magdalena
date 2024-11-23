@@ -1,8 +1,9 @@
 .event-page-content {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   max-width: 440px;
-  min-height: 610px;
+  min-height: 500px;
 }
 
 .event-image-container {
@@ -75,7 +76,7 @@
 }
 
 @media (max-width: 1280px) {
-  .event-text  {
+  .event-text {
     font-size: small;
   }
 }

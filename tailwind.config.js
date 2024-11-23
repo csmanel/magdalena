@@ -14,7 +14,7 @@ module.exports = {
         custom: '0 0 15px #222',
       },
       screens: {
-        'about-page': '1400px',
+        xxl: '1500px',
       },
     },
   },
