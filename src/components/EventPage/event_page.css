@@ -74,6 +74,12 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .event-text  {
+    font-size: small;
+  }
+}
+
 @media (max-width: 1200px) {
   .event-page-content {
     /* max-width: 80%; */
