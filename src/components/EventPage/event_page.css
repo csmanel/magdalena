@@ -4,6 +4,7 @@
   flex-direction: row;
   max-width: 440px;
   min-height: 500px;
+  padding: 1rem;
 }
 
 .event-image-container {
@@ -34,15 +35,16 @@
 }
 
 .event-text p {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
 }
 
-.event-header {
+.event-header,
+.sub-header {
   margin: 0;
 }
 
 .sub-header {
-  margin: 0 0 2rem 0;
+  margin-bottom: 2rem;
   line-height: 0.5rem;
   font-style: italic;
   font-size: 0.875rem;
@@ -53,7 +55,7 @@
 }
 
 .donation-text {
-  margin-top: 0.75rem !important;
+  margin-top: 0.75rem;
   font-style: italic;
   font-size: 1rem;
 }
@@ -65,11 +67,8 @@
 
 @media (max-width: 1503px) {
   .event-page-content {
-    max-width: 440px;
-    min-height: calc((440 / 610) * 90%);
-    padding: 1rem;
+    min-height: calc(440 / 610 * 90%);
   }
-
   .event-text {
     font-size: 0.9rem;
   }
@@ -83,21 +82,14 @@
 
 @media (max-width: 1200px) {
   .event-page-content {
-    /* max-width: 80%; */
-    min-height: calc((440 / 610) * 80%);
+    min-height: calc(440 / 610 * 80%);
   }
-
   .event-text {
     font-size: 0.85rem;
   }
 }
 
 @media (max-width: 992px) {
-  .event-page-content {
-    /* max-width: 90%; */
-    min-height: calc((440 / 610) * 90%);
-  }
-
   .event-text {
     font-size: 0.85rem;
   }
@@ -106,9 +98,8 @@
 @media (max-width: 768px) {
   .event-page-content {
     max-width: 95%;
-    min-height: calc((440 / 610) * 95%);
+    min-height: calc(440 / 610 * 95%);
   }
-
   .event-text {
     font-size: 0.8rem;
   }
@@ -119,14 +110,12 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    min-height: calc((440 / 610) * 100%);
+    min-height: calc(440 / 610 * 100%);
   }
-
   .event-image-container {
     margin-right: 0;
     margin-bottom: 1rem;
   }
-
   .event-text {
     font-size: 0.75rem;
   }
