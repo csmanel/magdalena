@@ -6,17 +6,6 @@
   --color-five: #ffe8cd;
 }
 
-/* break points to be worried about 
-Mobile: 360 x 640
-Mobile: 375 x 667
-Mobile: 360 x 720
-iPhone X: 375 x 812
-Pixel 2: 411 x 731
-Tablet: 768 x 1024
-Laptop: 1366 x 768
-laptop or desktop: 1920 x 1080 
-*/
-
 #root {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -203,7 +192,6 @@ nav a.active {
   }
 }
 
-/* Ensure the nav displays normally on larger screens */
 @media (min-width: 769px) {
   .nav-toggle {
     display: none;
