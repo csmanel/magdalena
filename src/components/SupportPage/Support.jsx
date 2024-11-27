@@ -1,5 +1,4 @@
 import './../../App.css';
-import './../ContactPage/Contact.css';
 import './Support.css';
 
 export const Support = () => {
