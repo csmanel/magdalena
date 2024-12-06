@@ -55,14 +55,14 @@ function App() {
           >
             <GrInstagram />
           </a>
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://www.facebook.com/profile.php?id=100094669223925"
             className="text-[#d2a56d] text-[20px] hover:text-[#fff5e9]"
           >
             <GrFacebook />
-          </a>
+          </a> */}
         </div>
       </div>
       <img
