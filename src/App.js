@@ -51,7 +51,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
             href="https://www.instagram.com/magdalena.ensemble/"
-            className="footer-icons"
+            className="text-[#d2a56d] text-[20px] hover:text-[#fff5e9]"
           >
             <GrInstagram />
           </a>
@@ -59,7 +59,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
             href="https://www.facebook.com/profile.php?id=100094669223925"
-            className="footer-icons"
+            className="text-[#d2a56d] text-[20px] hover:text-[#fff5e9]"
           >
             <GrFacebook />
           </a>
